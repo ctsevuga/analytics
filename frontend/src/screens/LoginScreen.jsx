@@ -52,6 +52,15 @@ const LoginScreen = () => {
       }, [usr]);
   return (
     <FormContainer>
+          <Card>
+        <h5>
+        This application is developed with questions and answers from various topics such as Ages, Averages, Trains etc.. of Quantitative Aptitude.
+        The objective is that the students can practice their knowledge in this subjects when they have completed the study of that particular subject. 
+        Once they have completed all subjects then they can take the actual practice tests that have 30 questions from various topics.
+        </h5>
+        <h4 className="text-danger ">For testing the Email Address: tester1@email.com Password: 123456. 
+          You can also register with an email and continue.</h4>
+      </Card>
       <h1>Sign In</h1>
 
       <Form onSubmit={submitHandler}>
